@@ -29,23 +29,19 @@ CutePy Source (.cpy) -> Lexical Analysis -> Syntax Analysis -> Semantic Analysis
 
 ## Project Structure
 cutePy-compiler/
-├── cutePy-compiler.py # Main compiler implementation
-├── run_tests.py # Test runner for all examples
-│
+├── cutePy-compiler.py      # Main compiler implementation
+├── run_tests.py            # Test runner for all examples
 ├── examples/
-│ ├── valid/ # Fully supported CutePy programs
-│ ├── syntax_errors/ # Programs containing syntax errors
-│ └── semantic_errors/ # Programs containing semantic errors
-│
+│   ├── valid/              # Fully supported CutePy programs
+│   ├── syntax_errors/      # Programs containing syntax errors
+│   └── semantic_errors/    # Programs containing semantic errors
 ├── demo/
-│ ├── test.cpy # Example CutePy source program
-│ ├── test.int # Generated intermediate code
-│ ├── test.symb # Generated symbol table
-│ └── test.asm # Generated RISC-V assembly
-│
+│   ├── test.cpy            # Example CutePy source program
+│   ├── test.int            # Generated intermediate code
+│   ├── test.symb           # Generated symbol table
+│   └── test.asm            # Generated RISC-V assembly
 ├── report(greek)/
-│ └── report.docx # Project report (Greek)
-│
+│   └── report.docx         # Project report (Greek)
 └── README.md
 
 ## Known Limitations

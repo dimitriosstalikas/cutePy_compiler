@@ -59,11 +59,11 @@ This compiler follows the CutePy specification used in the course assignment.
 ## How to Run
 Compile a CutePy program:
 ```
-- py cutePy_compiler.py examples/valid/while_sum.cpy
+py cutePy_compiler.py examples/valid/while_sum.cpy
 ```
 Run all example programs:
 ```
-- py run_tests.py
+py run_tests.py
 ```
 
 ## Authors

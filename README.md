@@ -24,19 +24,8 @@ The compiler translates CutePy programs into intermediate code and finally into 
 
 ## Compilation Pipeline
 
-CutePy Source (.cpy)
-        ↓
-Lexical Analysis
-        ↓
-Syntax Analysis
-        ↓
-Semantic Analysis
-        ↓
-Intermediate Code (.int)
-        ↓
-Symbol Table (.symb)
-        ↓
-RISC-V Assembly (.asm)
+CutePy Source (.cpy) -> Lexical Analysis -> Syntax Analysis -> Semantic Analysis -> Intermediate Code (.int) -> Symbol Table (.symb) -> RISC-V Assembly (.asm)
+
 
 ## Project Structure
 cutePy-compiler/  

@@ -31,19 +31,19 @@ CutePy Source (.cpy) -> Lexical Analysis -> Syntax Analysis -> Semantic Analysis
 
 ```
 cutePy-compiler/
-├── cutePy-compiler.py
-├── run_tests.py
+├── cutePy-compiler.py      # Main compiler implementation
+├── run_tests.py            # Test runner for all examples
 ├── examples/
-│   ├── valid/
-│   ├── syntax_errors/
-│   └── semantic_errors/
+│   ├── valid/              # Fully supported CutePy programs
+│   ├── syntax_errors/      # Programs containing syntax errors
+│   └── semantic_errors/    # Programs containing semantic errors
 ├── demo/
-│   ├── test.cpy
-│   ├── test.int
-│   ├── test.symb
-│   └── test.asm
+│   ├── test.cpy            # Example CutePy source program
+│   ├── test.int            # Generated intermediate code
+│   ├── test.symb           # Generated symbol table
+│   └── test.asm            # Generated RISC-V assembly
 ├── report(greek)/
-│   └── report.docx
+│   └── report.docx         # Project report (Greek)
 └── README.md
 ```
 

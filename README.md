@@ -58,11 +58,13 @@ This compiler follows the CutePy specification used in the course assignment.
 -   The project is intended for educational purposes.
 ## How to Run
 Compile a CutePy program:
-- py cutepy-compiler.py examples/valid/while_sum.cpy
-
+```
+- py cutePy_compiler.py examples/valid/while_sum.cpy
+```
 Run all example programs:
+```
 - py run_tests.py
-
+```
 
 ## Authors
 

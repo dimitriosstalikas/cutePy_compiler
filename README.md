@@ -37,7 +37,16 @@ cutePy-compiler/
 │ ├── valid/  
 │ ├── syntax_errors/  
 │ ├── semantic_errors/   
-│  
+│
+│── demo/
+│ ├── test.asm
+│ ├── test.cpy
+│ ├── test.int
+│ ├── test.symb
+│
+│── report(greek)
+│ ├── report.docx
+│ 
 ├── README.md  
 └── .gitignore
 
@@ -60,6 +69,6 @@ Run all example programs:
 
 ## Authors
 
-Stalikas Dimitrios , Voutsinas Andreas 
-Department of Computer Science and Engineering
-University of Ioannina
+Stalikas Dimitrios , Voutsinas Andreas , 
+>Department of Computer Science and Engineering
+>University of Ioannina

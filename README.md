@@ -28,6 +28,7 @@ CutePy Source (.cpy) -> Lexical Analysis -> Syntax Analysis -> Semantic Analysis
 
 
 ## Project Structure
+
 cutePy-compiler/
 ├── cutePy-compiler.py      # Main compiler implementation
 ├── run_tests.py            # Test runner for all examples
